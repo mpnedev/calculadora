@@ -3,10 +3,11 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-color: rgb(51, 49, 49);
 }
 .container {
     width: 500px;
-    height: 700px;
+    height: 750px;
     border: solid 1px #f9f9f9;
     border-radius: 20px;
     background-color: #f9f9f9;
@@ -21,6 +22,37 @@ body{
     box-shadow: 1px 2px 4px 6px rgba(0, 0, 0, 1);
 }
 
-.colunas {
+h3 {
+    font-size: 30px;
+    text-align: end;
+    margin: 70px 50px;
+}
+
+.col {
+    display: flex;
+    height: auto;
+    width: auto;
+    margin: 20px;
+    margin-top: 40px;
+}
+
+.num {
+    margin: 10px;
+    border: solid 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 2px;
+    font-size: 70px;
+    border-radius: 50%;
+    background: orange;
+    width: 60px;
+    cursor: pointer;
+}
+
+.num:hover {
+    color: white;
+    background-color: orange;
     
 }
